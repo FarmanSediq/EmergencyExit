@@ -259,3 +259,61 @@ canvas{
 
 }
 
+@media only screen and (max-device-width: 926px) {
+    body {
+        background-color: #ffff;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50));
+    }
+
+    .navbar1 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar1 li {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar1 a {
+        padding: 10px;
+    }
+
+    .cover {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cover2 {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .navbar2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        width: auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .cover3 {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
