@@ -1,0 +1,261 @@
+body{
+	background-color:#ffff
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50));
+}
+
+
+/*logo*/
+
+
+.lilipng{
+	height:80px;
+	width:350px;
+	margin-left: 560px;
+	margin-bottom:10px;
+}
+
+/*navigatiebar*/
+
+.navbar1{
+	list-style-type: none;
+	background-color:#3a0f49;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 2px solid #001414;
+	border-radius: 15px;
+	box-shadow: -1px 0 10px #000000;
+	opacity: 0.8;
+	display: flex;
+	justify-content:center;
+	padding-right:30px;
+}
+
+.navbar a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-family: Optima, sans-serif;
+	padding: 15px;
+	display: block;
+	text-align: center;
+	font-weight: italic;
+	box-shadow: -1px 0 10px #001414;
+	font-size: 23px;
+}
+
+
+
+.navbar a:hover{
+	background-color: #001414;
+}
+
+.navbar li{
+	float:left;
+}
+
+.home1, .Informatie1, .Plattegrond, .Contact1 {
+		border-right: 1px solid #001414;
+		box-shadow: -1px 0 4px #000000;
+}
+
+/*Cover homepagina*/
+
+.kop1{
+		text-align: center;
+		font-family:Optima, sans-serif;
+		font-size: 30px;
+		font-weight:bolder;
+		box-shadow: -4px 0 20px #d05a74;
+		border:2px solid #d05a74;
+		background-color: #d05a74;
+		color:white;
+}
+
+.cover{
+	width: 1000px;
+	height: 570px;
+	background: #6cc1cc;
+	margin-left:270px;
+	border: 4px solid #001414;
+	box-shadow: -1px 0 10px #000000;
+	opacity:0.8;
+	margin-top:-390px;
+	border-radius: 20px;
+
+}
+
+.text1{
+	text-align:center;
+	font-family:Optima, sans-serif;
+	font-size: 25px;
+	color: #3a0f49;
+}
+
+.text2{
+	font-family:Optima, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align: center;
+}
+
+
+input{
+	margin-left:650px;
+	margin-top:10px;
+	border:2px black solid;
+	border-radius:10px;
+}
+
+#searchButton{
+	background-color: #3a0f49;
+	color:#ffff;
+	border: 2px solid black;
+	border-radius: 10px;
+	width:100px;
+	font-weight:bold;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+	box-shadow: -1px 0 10px #000000;
+
+}
+
+#searchButton:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+#melding{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight:bold;
+	margin-left:650px;
+	color:#3a0f49;
+}
+
+#map {
+      width: 500px;
+      height: 300px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+	  margin-left:47px;
+   }
+   
+canvas{
+		height:100px;
+		width:100px;
+		margin-top:-150px;
+		border:5px solid black;
+}
+
+.text2{
+	justify-content:right;
+	display:flex;
+	margin-top:100px;
+	color:#3a0f49;
+	padding-right:7px;
+}
+
+
+
+/*contact*/
+
+  
+
+#contact{
+	font-family:sans-serif;
+	color:#ffff;
+	text-align:center;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	align-items: center;
+	margin: 20px 0px;
+	border:2px solid black;
+	background-color: #3a0f49;
+  }
+  .input{
+	padding: 12px;
+	margin: 15px;
+	width: 30%;
+	border: none;
+	outline: none;
+  
+  }
+  #msg{
+	width: 20%;
+	padding: 10px;
+	margin: 15px;
+	border: none;
+	outline: none;
+  }
+  #send{
+	padding: 10px;
+	width: 10%;
+	margin: 40px;
+	border: none;
+	outline: none;
+  }
+  #send:hover{
+	cursor: pointer;
+	box-shadow: 0 0 10px white;
+  }
+  .cover2{
+	width: 1000px;
+	height: 570px;
+	background: #d05a74;
+	margin-left:240px;
+	border: 4px solid #001414;
+	box-shadow: -1px 0 10px #000000;
+	opacity:0.8;
+	margin-top:30px;
+	border-radius: 20px;
+
+}
+
+
+/*navigatiebar zijkant*/
+
+.navbar2{
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+	width:140px;
+	opacity:0.9;
+	border: 2px solid black;
+	margin-top:200px;
+	background-color:#3a0f49;
+}
+
+
+/*Informatie pagina*/
+
+
+.info{
+	justify-content: center;
+	display:flex;
+	position:relative;
+	margin-left:5px;
+	height:600px;
+	width:400px;
+	margin-top:60px;
+	border-radius:30px;
+}
+
+.cover3{
+	justify-content:center;
+	position:relative;
+	display:flex;
+	width: 630px;
+	height: 725px;
+	background: #6cc1cc;
+	border: 4px solid #001414;
+	box-shadow: -1px 0 10px #000000;
+	opacity:0.8;
+	border-radius: 20px;
+	margin-left:420px;
+	margin-top:30px;
+	opacity:0.8;
+
+}
+
